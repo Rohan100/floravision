@@ -54,7 +54,6 @@ export default function Navbar() {
              
             </ul>
 
-            {/* Mobile Menu Toggle */}
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="md:hidden ms-auto text-white p-2"
@@ -64,7 +63,7 @@ export default function Navbar() {
             </button>
           </div>
 
-          {/* Mobile Navigation */}
+
           {isOpen && (
             <div className="md:hidden pb-6">
               <ul className="flex flex-col gap-4">
