@@ -6,7 +6,7 @@ type props = {
 function Review({reveiw}:props) {
     return (
         <div className='w-full h-full flex items-center justify-center'>
-            <div className="flex h-full w-4/5 flex-col px-8 py-14 max-w-xl  items-start gap-4  bg-white/5 shadow-xl backdrop-blur-lg rounded-[4rem] border border-white/40">
+            <div className="flex h-full md:w-4/5 w-11/12  flex-col md:px-8 md:py-14 px-4 py-7 max-w-xl  items-start gap-4  bg-white/5 shadow-xl backdrop-blur-lg md:rounded-[4rem] rounded-3xl border border-white/40">
                 <div className='flex gap-3 items-start'>
                     <img
                         src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"

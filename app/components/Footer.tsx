@@ -5,7 +5,6 @@ export default function Footer() {
     <footer className="bg-[#1b2218] text-white py-12 px-6 md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
 
-        {/* LEFT SECTION */}
         <div>
           <div className="flex items-center gap-2 mb-4">
             <Image
@@ -28,8 +27,6 @@ export default function Footer() {
             <button>LI</button>
           </div>
         </div>
-
-        {/* MIDDLE SECTION */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Quick Link’s</h3>
 
@@ -40,8 +37,6 @@ export default function Footer() {
             <li className="hover:text-white cursor-pointer">Privacy</li>
           </ul>
         </div>
-
-        {/* RIGHT SECTION */}
         <div>
           <h3 className="text-lg font-semibold mb-4">For Every Update.</h3>
 
@@ -59,7 +54,6 @@ export default function Footer() {
 
       </div>
 
-      {/* COPYRIGHT */}
       <div className="text-center mt-12 text-gray-400 text-sm">
         FloraVision © all right reserve
       </div>

@@ -8,9 +8,9 @@ import Best from "./components/Best";
 import Footer from "./components/Footer";
 export default function Home() {
   return (
-    <div className="relative">
+    <div className="relative bg-[#1b2316] md:px-10 px-2">
       <Navbar />
-      <div className='absolute top-0 left-0 w-full md:aspect-4/5 aspect-2/3 -z-10'>
+      <div className='absolute top-0 left-0 w-full md:aspect-4/5 aspect-2/3 '>
         <Image unoptimized src={'/bg.jpg'} width={100} height={300} alt='large plant image' className="w-full h-full" />
       </div>
       <Hero />

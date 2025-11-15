@@ -9,7 +9,7 @@ function CustomerReview() {
                 <div className="absolute w-8 h-8 bottom-0 right-[calc(100%-22px)] border-amber-400  border-b-3 border-l-3 rounded-bl-lg   pointer-events-none"></div>
                 Customer Review
             </h2>
-            <div className='grid grid-cols-1 md:grid-cols-3'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
                 <Review reveiw='Just got my hands on some absolutely awesome plants, and I couldn’t be happier!'/>
                 <Review reveiw='Each one has its own unique charm and personality, and they’ve already started brightening up my space. The vibrant colors and fresh greenery make such a huge difference in my home.'/>
                 <Review reveiw="It's like bringing a little piece of nature indoors. Definitely worth the investment—my plant collection has never looked better!"/>

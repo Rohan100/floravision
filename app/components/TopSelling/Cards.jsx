@@ -41,7 +41,7 @@ const plants = [
 
 function Cards() {
     return (
-        <div className='grid grid-cols-2 md:grid-cols-3 gap-4 gap-y-22'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-4 gap-y-22'>
             {
                 plants.map(item => <PlantCard key={item.plant_name} image={item.image} price={item.price} title={item.plant_name} description={item.description} />)
             }

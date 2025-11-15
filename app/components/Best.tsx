@@ -5,7 +5,7 @@ function Best() {
         <section className='px-6  py-12 bg-[#1b2316]'>
             <div className='max-w-7xl mx-auto'>
 
-                <h2 className="text-4xl font-inter relative m-auto  font-bold text-white w-fit mb-16 ">
+                <h2 className="md:text-4xl text-3xl font-inter relative m-auto  font-bold text-white w-fit mb-16 ">
                     <div className="absolute w-8 h-8 -top-1.5 left-[calc(100%-20px)]  border-t-3 border-r-3 rounded-tr-lg border-green-400  pointer-events-none"></div>
                     <div className="absolute w-8 h-8 -bottom-1.5 right-[calc(100%-20px)] border-green-400  border-b-3 border-l-3 rounded-bl-lg   pointer-events-none"></div>
                     Our Best 02
@@ -16,12 +16,12 @@ function Best() {
                         <img
                             src='/plants/plant1.png'
                             alt="Desk plant"
-                            className="md:w-4/5 w-full mb-4 md:mb-0 left-1/2 -translate-x-1/2 absolute -bottom-1  object-cover rounded-2xl"
+                            className="md:w-4/5 w-full mb-4 md:mb-0 left-1/2 -translate-x-1/2 absolute md:block hidden -bottom-1  object-cover rounded-2xl"
                         />
                     </div>
                     <div className='self-center w-4/5 m-auto py-6'>
 
-                        <h3 className="text-4xl font-inter font-semibold text-white mb-6">
+                        <h3 className="md:text-4xl text-2xl font-inter font-semibold text-white mb-6">
                             We Have Small And Best O2 Plants Collection{'’'}s
                         </h3>
                         <p className="text-white/70 font-lg mb-4 font-inter">
