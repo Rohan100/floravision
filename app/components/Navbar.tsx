@@ -8,14 +8,14 @@ export default function Navbar() {
 
   return (
       <nav className="fixed top-0 w-full z-50">
-        <div className=" mx-auto px-12">
+        <div className="w-full">
           <div className="flex items-center h-18">
             <div className="flex items-center gap-2 text-white">
               <Image src={'/plant.png'} alt='plant logo' width={32} height={32} />
               <span className="text-xl font-inter font-semibold ">FloraVision.</span>
             </div>
 
-            <ul className="hidden flex-1 md:flex justify-center font-indie text-lg  items-center gap-20">
+            <ul className="hidden flex-2 md:flex justify-center font-indie text-lg  items-center gap-20">
               <li>
                 <a href="#home" className="text-white/90 hover:text-white transition-all relative group">
                   Home
@@ -43,11 +43,11 @@ export default function Navbar() {
               </li>
             </ul>
 
-            <ul className="hidden md:flex justify-center  items-center gap-10">
-              <li>
+            <ul className="hidden md:flex  justify-end pe-22 gap-6 ">
+              <li className="hidden md:flex justify-center  items-center ">
                 <Image src={'/search.png'} alt='search' width={20} height={20} />
               </li>
-              <li className="relative group">
+              <li className="hidden md:flex justify-center  items-center ">
                 <Image src={'/bag.png'} alt='bag' width={20} height={20} />
               </li>
              

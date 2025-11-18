@@ -5,8 +5,7 @@ import CurvedCard from './Cards/HorizontalCard';
 function Hero() {
     return (
         <div className=''>
-
-            <section className="pt-18 md:px-12 px-3 md:pb-20 pb-10 relative overflow-hidden">
+            <section className="pt-18  md:pb-20 pb-10 relative overflow-hidden">
                 <div className=" mx-auto mt-10 grid md:grid-cols-3 md:gap-12 gap-18 items-center">
                     <div className="text-white col-span-2">
                         <h1 className="sm:text-5xl text-4xl  font-inter md:text-8xl font-bold leading-tight">
@@ -51,7 +50,7 @@ function Hero() {
                         </div>
                     </div>
 
-                    <div className='w-full flex items-start justify-center '>
+                    <div className='w-full flex items-start justify-end '>
                         <div className='relative w-fit h-fit  rounded-2xl '>
 
                             <Image unoptimized src='/plants/plant1.png' alt='plant 1' width={100} height={100} className='absolute bottom-[35%] z-2 w-full ' />

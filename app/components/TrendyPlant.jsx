@@ -2,7 +2,7 @@ import React from 'react'
 import HorizontalCard from './Cards/HorizontalCard'
 function TrendyPlant() {
     return (
-        <section className="md:px-6 px-3 py-12 ">
+        <section className=" py-12 ">
             <div className="mx-auto">
                 <h2 className="md:text-4xl text-3xl font-inter relative m-auto  font-bold text-white w-fit mb-16">
                     <div className="absolute w-8 h-8 top-0 left-[calc(100%-24px)]  border-t-3 border-r-3 rounded-tr-lg border-amber-400  pointer-events-none"></div>

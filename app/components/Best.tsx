@@ -2,8 +2,8 @@ import React from 'react'
 import { ShoppingCart } from 'lucide-react'
 function Best() {
     return (
-        <section className='px-6  py-12 bg-[#1b2316]'>
-            <div className='max-w-7xl mx-auto'>
+        <section className=' py-12 bg-[#1b2316]'>
+            <div className=' mx-auto'>
 
                 <h2 className="md:text-4xl text-3xl font-inter relative m-auto  font-bold text-white w-fit mb-16 ">
                     <div className="absolute w-8 h-8 -top-1.5 left-[calc(100%-20px)]  border-t-3 border-r-3 rounded-tr-lg border-green-400  pointer-events-none"></div>
